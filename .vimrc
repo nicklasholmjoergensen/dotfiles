@@ -9,8 +9,14 @@ set nocompatible
 " Make backspace behave in a sane manner
 set backspace=indent,eol,start
 
-" Visual
+" Filetypes
 filetype on
+filetype plugin on
+filetype indent on
+
+set autoread
+
+" Visual
 syntax on
 colorscheme Tomorrow-Night
 set guifont=Menlo\ Regular:h18
